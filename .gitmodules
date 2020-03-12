@@ -1,0 +1,6 @@
+[submodule "mlx90640-library"]
+	path = mlx90640-library
+	url = https://github.com/melexis/mlx90640-library
+[submodule "SparkFun_MLX90640_Arduino_Example"]
+	path = SparkFun_MLX90640_Arduino_Example
+	url = https://github.com/sparkfun/SparkFun_MLX90640_Arduino_Example
