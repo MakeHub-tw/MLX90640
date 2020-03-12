@@ -2,9 +2,9 @@
 
 MLX90640 code for various platforms
 
-## Use git's `submodule` command to download other repositories
+## Use `git submodule` command to download other repositories
 
-Most of the subdirectories in this repository are selectively cloned from open source projects as submodules. Thank them for their selfless dedication. Use the command below to clone the full repository
+Most of the subdirectories in this repository are selectively cloned from other open source projects as submodules. Thank the authors for their selfless dedication. Use the command below to clone the full repository
 
     git clone --recursive https://github.com/MakeHub-tw/MLX90640.git
 
