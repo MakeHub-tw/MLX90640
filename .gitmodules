@@ -4,3 +4,6 @@
 [submodule "SparkFun_MLX90640_Arduino_Example"]
 	path = SparkFun_MLX90640_Arduino_Example
 	url = https://github.com/sparkfun/SparkFun_MLX90640_Arduino_Example
+[submodule "pimoroni"]
+	path = pimoroni
+	url = https://github.com/pimoroni/mlx90640-library

@@ -23,7 +23,18 @@ This is the official library from Melexis - https://github.com/melexis/MLX90640-
 
 The driver inside the repository is designed to work on [mbed](https://www.mbed.com/), but it seems not so hard to port it to other platforms. 
 
-
 ### SparkFun MLX90640 Arduino Example
 
 We've tested SparkFun's devices on Arduino with https://github.com/sparkfun/SparkFun_MLX90640_Arduino_Example
+
+### Pimoroni MLX90640 (Mainly for Raspberry Pi)
+
+We've tested Pimoroni's examples on Raspberry Pi with https://github.com/pimoroni/mlx90640-library
+
+This should be the starting point if you'd like to play with MLX90640
+
+### WARINGS. Especially for Jetson Nano
+
+By the way, it's said that some code might try to "WRITE" to the EEPROM inside MLX90640 and cause the device damanged. See https://github.com/pimoroni/mlx90640-library/issues/38
+
+Be careful about this! And we are trying to investigate the problem.
